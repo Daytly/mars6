@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="class1">
+    {%for i in dict%}
+    {{i}}: {{dict[i]}}
+    <br>
+    {% endfor %}
+</div>
+{% endblock %}
